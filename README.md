@@ -59,7 +59,43 @@ Backend akan berjalan di:
 ```
 http://localhost:3000
 ```
+## 🎨 Frontend Setup
 
+### 1. Masuk ke Folder Frontend
+
+```bash
+cd ../frontend
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Environment Variables
+
+Buat file **`.env.local`** di folder **`frontend`** lalu isi dengan:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000/api
+```
+### 4. Jalankan Frontend Server
+
+```bash
+npm run dev
+```
+Frontend dapat diakses di:
+
+```bash
+http://localhost:3001
+```
+
+###  Frontend Routes
+
+```bash
+http://localhost:3001/article-list
+```
 ---
 
 ## 🔌 API Endpoints
