@@ -30,7 +30,7 @@ DB_PASSWORD=wit_app
 
 #### a. Buat Database
 
-Buat database PostgreSQL dengan nama:
+Buat database PostgreSQL dan username serta password dengan nama :
 
 ```text
 wit_app
