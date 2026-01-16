@@ -1,0 +1,12 @@
+# Backend
+backend/.env
+backend/node_modules/
+
+# Frontend
+frontend/.env*
+frontend/node_modules/
+frontend/.next/
+
+# Global
+node_modules/
+.env
