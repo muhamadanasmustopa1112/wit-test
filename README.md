@@ -1,3 +1,55 @@
+## 🚀 Tech Stack
+
+### Backend
+
+* koa.js
+* PostgreSQL
+* Knex.js (Query Builder & Migration)
+* JSON Web Token (JWT)
+* dotenv
+
+### Frontend
+
+* Next.js 14 (App Router) 
+
+---
+
+## 📁 Project Structure
+
+```text
+project-root/
+│
+├── backend/
+│   ├── db/
+|       ├── migrations/
+|       ├── queries/
+|       ├── seeds/
+|       ├── connection.js
+|   |
+|   ├── middlewares/
+|   ├── node_modules/
+|   ├── routes/     
+|   ├── .env               
+│   ├── index.js
+|   ├── knexfile.js                        
+│   ├── package-lock.json           
+│   └── package.jsson         
+│
+├── frontend/
+│   ├── next.config.js
+│   ├── .env.local              
+│   ├── package.json
+│   └── app/
+│       ├── article/                
+│       └── article-list/
+│   ├── interface/
+|   └── lib/       
+│
+└── README.md
+```
+
+---
+
 ## 🚀 Backend Setup
 
 ### 1. Masuk ke Folder Backend
